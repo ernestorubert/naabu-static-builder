@@ -64,7 +64,7 @@ sudo systemctl start docker
 1. **Clona este repositorio:**
 
 ```bash
-git clone https://github.com/TU-USUARIO/naabu-static-builder.git
+git clone https://github.com/ernestorubert/naabu-static-builder.git
 cd naabu-static-builder
 ```
 
