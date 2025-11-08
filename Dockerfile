@@ -25,12 +25,10 @@ ENV CGO_ENABLED=1
 ENV CGO_CFLAGS="-I/usr/local/include"
 ENV CGO_LDFLAGS="-L/usr/local/lib -static"
 
-# === CAMBIOS AQUÍ ===
 # Clona el código fuente del proyecto en lugar de copiarlo
 WORKDIR /app
 RUN git clone https://github.com/projectdiscovery/naabu.git
 WORKDIR /app/naabu
-# === FIN DE LOS CAMBIOS ===
 
 # Descarga dependencias de Go
 RUN go mod download
